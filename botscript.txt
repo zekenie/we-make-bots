@@ -1,0 +1,11 @@
+Want to see what chatbots can do?
+
+  yes: Anything any other piece of code could do: launch a drone, send an email, talk to an API, retrieve data, take users through rich flows... But they're cheep to build and they last a long time.
+
+  no: Oh come on, you know you do! Please?
+
+[cheep]
+  One challenge of developing software is building a rich, intuitive, interface that keeps up with changing requirements. Chatbots are simple. Just messages between the user and the bot.
+
+[integrations]
+  The format enforces a minimalist, yet powerful, user interface which is faster to develop. It works in every form-factor and language.

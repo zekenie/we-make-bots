@@ -1,0 +1,30 @@
+{
+  "name": "we-make-bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.connfig.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2016": "^6.0.11",
+    "babel-preset-react": "^6.5.0",
+    "basscss": "^8.0.1",
+    "basscss-addons": "^1.0.0-beta4",
+    "basscss-basic": "^1.0.0",
+    "basscss-btn": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.8.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "sass-loader": "^3.2.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}

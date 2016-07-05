@@ -1,0 +1,115 @@
+@import '~basscss/css/basscss.css';
+@import '~basscss-basic/index.css';
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+body{
+  background: #8EED00;
+  color: white;
+  font-family: 'Source Code Pro';
+}
+
+.no-transition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+h1 {
+  hanging-punctuation: force-end;
+}
+
+.main-content-container {
+  margin-top: 85vh;
+  .main-content {
+    color:black;
+    background-color:white;
+  }
+}
+
+.chat-window {
+
+  transition: width 0.3s, left 0.3s, transform 0.3s;
+  position: fixed;
+
+  left: 32px;
+  &.open {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &.closed {
+    top: 20vh;
+  }
+
+  .input-container {
+    background: rgba(255,255,255,0.5);
+    border-top-color: white;
+    .chevron {
+      color: #FC3F00;
+      font-weight: bold;
+    }
+    input {
+      color: black;
+      font-family: 'Source Code Pro';
+      width: 95%;
+      background: none;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .messages{
+    font-size: 0.8em;
+    // background: rgba(255, 255, 255, 0.9);
+    // color: black;
+    max-height: 60vh;
+    overflow-y: scroll;
+    .message {
+      max-width:80%;
+      &.message-human {
+        text-align: left;
+        float: right;
+        clear: both;
+        background: #38E4AE;
+      }
+      &.message-bot {
+        float: left;
+        clear: both;
+        background: #7BD389;
+      }
+    }
+    
+  }
+
+}
+
+.container {
+  width:950px;
+}
+
+.logo {
+  font-size: 0.5em;
+  position: fixed;
+  left: 32px;
+  top: 0;
+}
+
+.device {
+  font-size: 0.8em;
+}
+
+.section{
+  margin-bottom: 6em;
+}
+
+pre {
+  margin:0;
+  white-space: pre-wrap;
+}
